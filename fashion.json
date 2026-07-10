@@ -1,16 +1,46 @@
 {
-  "_comment": "GNOTO ファッション速報データ。roastkabral-ui/glyph-data の main 直下に置くと https://cdn.jsdelivr.net/gh/roastkabral-ui/glyph-data@main/fashion.json から自動取得されます。日程は目安。正式発表が出たら更新してください。news は随時追加。",
+  "_comment": "GNOTO ファッション速報データ。roastkabral-ui/glyph-data の main 直下に置くと https://cdn.jsdelivr.net/gh/roastkabral-ui/glyph-data@main/fashion.json から自動取得されます。日程は目安（正式スケジュール発表で更新推奨）。kind=種別、brands=注目ブランド、news=速報。news は tools/autonews のGitHub Actionsで自動追記も可能。",
   "fashionWeeks": [
-    { "season": "2027 春夏 (SS27)", "city": "東京 (Rakuten FWT)", "start": "2026-08-31", "end": "2026-09-05" },
-    { "season": "2027 春夏 (SS27)", "city": "ニューヨーク", "start": "2026-09-10", "end": "2026-09-15" },
-    { "season": "2027 春夏 (SS27)", "city": "ロンドン", "start": "2026-09-17", "end": "2026-09-22" },
-    { "season": "2027 春夏 (SS27)", "city": "ミラノ", "start": "2026-09-22", "end": "2026-09-28" },
-    { "season": "2027 春夏 (SS27)", "city": "パリ", "start": "2026-09-28", "end": "2026-10-06" },
-    { "season": "2027 秋冬 (AW27)", "city": "東京 (Rakuten FWT)", "start": "2027-03-15", "end": "2027-03-20" },
-    { "season": "2027 秋冬 (AW27)", "city": "ニューヨーク", "start": "2027-02-11", "end": "2027-02-16" },
-    { "season": "2027 秋冬 (AW27)", "city": "ロンドン", "start": "2027-02-19", "end": "2027-02-23" },
-    { "season": "2027 秋冬 (AW27)", "city": "ミラノ", "start": "2027-02-23", "end": "2027-03-01" },
-    { "season": "2027 秋冬 (AW27)", "city": "パリ", "start": "2027-03-01", "end": "2027-03-09" }
+    { "season": "2027 春夏 (SS27)", "kind": "ウィメンズ", "city": "コペンハーゲン", "start": "2026-08-05", "end": "2026-08-07", "brands": ["Ganni","Cecilie Bahnsen","Stine Goya","Rotate","(Di)vision","Saks Potts","Han Kjøbenhavn","Baum und Pferdgarten"] },
+    { "season": "2027 春夏 (SS27)", "kind": "ウィメンズ", "city": "東京 (Rakuten FWT)", "start": "2026-08-31", "end": "2026-09-05", "brands": ["sacai","Yohji Yamamoto","Comme des Garçons","Undercover","Ambush","doublet","kolor","Mame Kurogouchi","TOGA","beautiful people","Anrealage","HYKE"] },
+    { "season": "2027 春夏 (SS27)", "kind": "ウィメンズ", "city": "ソウル", "start": "2026-09-01", "end": "2026-09-05", "brands": ["Juun.J","Wooyoungmi","Hyein Seo","Kimhekim","Andersson Bell","Ader Error","PushBUTTON"] },
+    { "season": "2027 春夏 (SS27)", "kind": "ウィメンズ", "city": "ニューヨーク", "start": "2026-09-10", "end": "2026-09-15", "brands": ["Ralph Lauren","Michael Kors","Marc Jacobs","Tory Burch","Coach","Calvin Klein","Proenza Schouler","Khaite","Tommy Hilfiger","Carolina Herrera","Thom Browne","Altuzarra"] },
+    { "season": "2027 春夏 (SS27)", "kind": "ウィメンズ", "city": "ロンドン", "start": "2026-09-17", "end": "2026-09-22", "brands": ["Burberry","JW Anderson","Simone Rocha","Erdem","Molly Goddard","Roksanda","Richard Quinn","Nensi Dojaka","16Arlington"] },
+    { "season": "2027 春夏 (SS27)", "kind": "ウィメンズ", "city": "ミラノ", "start": "2026-09-22", "end": "2026-09-28", "brands": ["Prada","Gucci","Versace","Bottega Veneta","Fendi","Giorgio Armani","Dolce & Gabbana","Max Mara","Moschino","Ferragamo","Marni","Jil Sander","Etro","Missoni","Tod's"] },
+    { "season": "2027 春夏 (SS27)", "kind": "ウィメンズ", "city": "パリ", "start": "2026-09-28", "end": "2026-10-06", "brands": ["Chanel","Dior","Louis Vuitton","Saint Laurent","Hermès","Balenciaga","Valentino","Loewe","Miu Miu","Givenchy","Chloé","Celine","Rick Owens","Comme des Garçons","Yohji Yamamoto","Sacai","Issey Miyake","Junya Watanabe","Balmain","Courrèges","Dries Van Noten","Schiaparelli","Alaïa","Stella McCartney"] },
+    { "season": "2027 春夏 (SS27)", "kind": "ウィメンズ", "city": "上海", "start": "2026-10-09", "end": "2026-10-14", "brands": ["Shushu/Tong","Pronounce","Ms Min","Uma Wang","Angel Chen","Xu Zhi"] },
+    { "season": "2026", "kind": "イベント", "city": "CFDA ファッションアワード", "start": "2026-11-02", "brands": [] },
+    { "season": "2026", "kind": "イベント", "city": "The Fashion Awards（英国）", "start": "2026-12-01", "brands": [] },
+
+    { "season": "2027 秋冬 (AW27)", "kind": "メンズ", "city": "ピッティ・ウオモ（フィレンツェ）", "start": "2027-01-13", "end": "2027-01-16", "brands": [] },
+    { "season": "2027 秋冬 (AW27)", "kind": "メンズ", "city": "ミラノ メンズ", "start": "2027-01-16", "end": "2027-01-20", "brands": ["Prada","Zegna","Dolce & Gabbana","Fendi","Emporio Armani","Etro","Dsquared2","MSGM"] },
+    { "season": "2027 秋冬 (AW27)", "kind": "メンズ", "city": "パリ メンズ", "start": "2027-01-20", "end": "2027-01-24", "brands": ["Louis Vuitton","Dior Men","Hermès","Kenzo","Rick Owens","Yohji Yamamoto","Comme des Garçons","Sacai","Junya Watanabe","Auralee","Wooyoungmi","Amiri","Lemaire","Wales Bonner","Officine Générale"] },
+    { "season": "2027 春夏 (SS27)", "kind": "クチュール", "city": "パリ オートクチュール", "start": "2027-01-25", "end": "2027-01-28", "brands": ["Chanel","Dior","Valentino","Giambattista Valli","Schiaparelli","Jean Paul Gaultier","Armani Privé","Elie Saab","Fendi Couture","Balenciaga","Zuhair Murad"] },
+    { "season": "2027 秋冬 (AW27)", "kind": "ウィメンズ", "city": "コペンハーゲン", "start": "2027-01-27", "end": "2027-01-29", "brands": ["Ganni","Cecilie Bahnsen","Stine Goya","Rotate","Saks Potts"] },
+    { "season": "2027 秋冬 (AW27)", "kind": "ウィメンズ", "city": "ニューヨーク", "start": "2027-02-11", "end": "2027-02-16", "brands": ["Ralph Lauren","Michael Kors","Marc Jacobs","Tory Burch","Coach","Calvin Klein","Proenza Schouler","Khaite","Carolina Herrera","Thom Browne"] },
+    { "season": "2027 秋冬 (AW27)", "kind": "ウィメンズ", "city": "ロンドン", "start": "2027-02-19", "end": "2027-02-23", "brands": ["Burberry","JW Anderson","Simone Rocha","Erdem","Roksanda","Richard Quinn"] },
+    { "season": "2027 秋冬 (AW27)", "kind": "ウィメンズ", "city": "ミラノ", "start": "2027-02-23", "end": "2027-03-01", "brands": ["Prada","Gucci","Versace","Bottega Veneta","Fendi","Giorgio Armani","Dolce & Gabbana","Max Mara","Marni","Jil Sander","Etro","Missoni"] },
+    { "season": "2027 秋冬 (AW27)", "kind": "ウィメンズ", "city": "パリ", "start": "2027-03-01", "end": "2027-03-09", "brands": ["Chanel","Dior","Louis Vuitton","Saint Laurent","Hermès","Balenciaga","Valentino","Loewe","Miu Miu","Givenchy","Chloé","Celine","Rick Owens","Comme des Garçons","Yohji Yamamoto","Sacai","Issey Miyake","Junya Watanabe","Balmain","Courrèges","Dries Van Noten","Alaïa"] },
+    { "season": "2027 秋冬 (AW27)", "kind": "ウィメンズ", "city": "東京 (Rakuten FWT)", "start": "2027-03-15", "end": "2027-03-20", "brands": ["sacai","Yohji Yamamoto","Comme des Garçons","Undercover","Ambush","doublet","kolor","Mame Kurogouchi","TOGA","Anrealage"] },
+    { "season": "2027 秋冬 (AW27)", "kind": "ウィメンズ", "city": "上海", "start": "2027-04-08", "end": "2027-04-13", "brands": ["Shushu/Tong","Pronounce","Uma Wang","Angel Chen"] },
+    { "season": "2028 クルーズ", "kind": "リゾート", "city": "クルーズ／リゾート・コレクション（各ブランド）", "start": "2027-05-01", "end": "2027-06-30", "brands": ["Chanel","Dior","Louis Vuitton","Gucci","Versace","Max Mara","Chloé"] },
+    { "season": "2027", "kind": "イベント", "city": "Met Gala（メットガラ）", "start": "2027-05-03", "brands": [] },
+    { "season": "2027", "kind": "イベント", "city": "LVMH プライズ 決勝", "start": "2027-06-03", "brands": [] },
+    { "season": "2028 春夏 (SS28)", "kind": "メンズ", "city": "ピッティ・ウオモ（フィレンツェ）", "start": "2027-06-15", "end": "2027-06-18", "brands": [] },
+    { "season": "2028 春夏 (SS28)", "kind": "メンズ", "city": "ミラノ メンズ", "start": "2027-06-18", "end": "2027-06-22", "brands": ["Prada","Zegna","Dolce & Gabbana","Fendi","Emporio Armani","Etro"] },
+    { "season": "2028 春夏 (SS28)", "kind": "メンズ", "city": "パリ メンズ", "start": "2027-06-22", "end": "2027-06-27", "brands": ["Louis Vuitton","Dior Men","Hermès","Kenzo","Rick Owens","Yohji Yamamoto","Comme des Garçons","Sacai","Junya Watanabe","Auralee","Amiri","Wales Bonner"] },
+    { "season": "2027 秋冬 (AW27)", "kind": "クチュール", "city": "パリ オートクチュール", "start": "2027-07-05", "end": "2027-07-08", "brands": ["Chanel","Dior","Valentino","Giambattista Valli","Schiaparelli","Jean Paul Gaultier","Armani Privé","Elie Saab","Fendi Couture","Balenciaga"] },
+
+    { "season": "2028 春夏 (SS28)", "kind": "ウィメンズ", "city": "コペンハーゲン", "start": "2027-08-04", "end": "2027-08-06", "brands": ["Ganni","Cecilie Bahnsen","Stine Goya","Rotate"] },
+    { "season": "2028 春夏 (SS28)", "kind": "ウィメンズ", "city": "東京 (Rakuten FWT)", "start": "2027-08-30", "end": "2027-09-04", "brands": ["sacai","Yohji Yamamoto","Comme des Garçons","Undercover","doublet","kolor","Mame Kurogouchi"] },
+    { "season": "2028 春夏 (SS28)", "kind": "ウィメンズ", "city": "ニューヨーク", "start": "2027-09-09", "end": "2027-09-14", "brands": ["Ralph Lauren","Michael Kors","Marc Jacobs","Tory Burch","Coach","Calvin Klein","Khaite","Thom Browne"] },
+    { "season": "2028 春夏 (SS28)", "kind": "ウィメンズ", "city": "ロンドン", "start": "2027-09-16", "end": "2027-09-21", "brands": ["Burberry","JW Anderson","Simone Rocha","Erdem","Roksanda"] },
+    { "season": "2028 春夏 (SS28)", "kind": "ウィメンズ", "city": "ミラノ", "start": "2027-09-21", "end": "2027-09-27", "brands": ["Prada","Gucci","Versace","Bottega Veneta","Fendi","Giorgio Armani","Dolce & Gabbana","Max Mara","Marni","Jil Sander"] },
+    { "season": "2028 春夏 (SS28)", "kind": "ウィメンズ", "city": "パリ", "start": "2027-09-27", "end": "2027-10-05", "brands": ["Chanel","Dior","Louis Vuitton","Saint Laurent","Hermès","Balenciaga","Valentino","Loewe","Miu Miu","Givenchy","Chloé","Celine","Comme des Garçons","Yohji Yamamoto","Sacai","Issey Miyake","Junya Watanabe"] },
+    { "season": "2027", "kind": "イベント", "city": "The Fashion Awards（英国）", "start": "2027-12-06", "brands": [] }
   ],
-  "news": []
+  "news": [
+    { "date": "2026-07-10", "title": "2027 春夏（SS27）シーズンが本格始動。コペンハーゲンを皮切りに、東京・NY・ロンドン・ミラノ・パリの各ウィークが順次開催されます。", "city": "", "tag": "お知らせ" },
+    { "date": "2026-07-08", "title": "パリ オートクチュール（2026-27AW）が閉幕。次のクチュールは 2027年1月下旬（パリ）を予定。", "city": "パリ", "tag": "クチュール" }
+  ]
 }
