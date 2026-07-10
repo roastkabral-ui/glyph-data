@@ -1,0 +1,16 @@
+{
+  "_comment": "GNOTO ファッション速報データ。roastkabral-ui/glyph-data の main 直下に置くと https://cdn.jsdelivr.net/gh/roastkabral-ui/glyph-data@main/fashion.json から自動取得されます。日程は目安。正式発表が出たら更新してください。news は随時追加。",
+  "fashionWeeks": [
+    { "season": "2027 春夏 (SS27)", "city": "東京 (Rakuten FWT)", "start": "2026-08-31", "end": "2026-09-05" },
+    { "season": "2027 春夏 (SS27)", "city": "ニューヨーク", "start": "2026-09-10", "end": "2026-09-15" },
+    { "season": "2027 春夏 (SS27)", "city": "ロンドン", "start": "2026-09-17", "end": "2026-09-22" },
+    { "season": "2027 春夏 (SS27)", "city": "ミラノ", "start": "2026-09-22", "end": "2026-09-28" },
+    { "season": "2027 春夏 (SS27)", "city": "パリ", "start": "2026-09-28", "end": "2026-10-06" },
+    { "season": "2027 秋冬 (AW27)", "city": "東京 (Rakuten FWT)", "start": "2027-03-15", "end": "2027-03-20" },
+    { "season": "2027 秋冬 (AW27)", "city": "ニューヨーク", "start": "2027-02-11", "end": "2027-02-16" },
+    { "season": "2027 秋冬 (AW27)", "city": "ロンドン", "start": "2027-02-19", "end": "2027-02-23" },
+    { "season": "2027 秋冬 (AW27)", "city": "ミラノ", "start": "2027-02-23", "end": "2027-03-01" },
+    { "season": "2027 秋冬 (AW27)", "city": "パリ", "start": "2027-03-01", "end": "2027-03-09" }
+  ],
+  "news": []
+}
